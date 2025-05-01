@@ -1,0 +1,81 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="calculator.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Measurement Converter - NomadWeave App</title>
+</head>
+
+<body>
+
+    <form action="">
+        <div class="Title">
+            <h2>Measurement Convertion Calculator</h2>
+        </div>
+        <div>
+            <div class="checkboxes">
+                <div class="instructions">
+                    <p>PS: Choose your initial Measurement type before entering your Numbers Below</p>
+                </div>
+                <div class="checkbox">
+                    <label for="CM">CM</label>
+                    <input type="checkbox" id="CM" class="Checkbox">
+                </div>
+
+                <div class="checkbox"><label for=" INCH">INCH</label>
+                    <input type="checkbox" id="INCH" class="Checkbox">
+                </div>
+
+                <div class="checkbox"><label for=" FEET">FEET</label>
+                    <input type="checkbox" id="FEET" class="Checkbox">
+                </div>
+
+                <div class="instructions">
+                    <p>Weight Converter:</p>
+                </div>
+                <div class="checkbox"><label for="KG">Kg</label>
+                    <input type="checkbox" id="KG" class="Checkbox">
+                </div>
+
+                <div class="checkbox"><label for="LBS">Lbs</label>
+                    <input type="checkbox" id="LBS" class="Checkbox">
+                </div>
+
+                <div class="instructions">
+                    <p>Currency Converter:</p>
+                </div>
+
+                <div class="checkbox"><label for="USD">USD</label>
+                    <input type="checkbox" id="USD" class="Checkbox">
+                </div>
+
+                <div class="checkbox"><label for="EURO">EURO</label>
+                    <input type="checkbox" id="EURO" class="Checkbox">
+                </div>
+
+                <div class="checkbox"><label for="GBP">GBP</label>
+                    <input type="checkbox" id="GBP" class="Checkbox">
+                </div>
+            </div>
+
+
+            <div class="NmInput"><br> <label for="fname">Enter Number:</label>
+                <input type="Number" id="NumberNpt" name="fname" step="any">
+            </div>
+
+
+            <div> <br> <label>Your Convertion is: </label>
+                <label id="convertion">_______</label>
+            </div>
+        </div>
+    </form>
+
+
+    <script src="logic.js"></script>
+
+</body>
+
+</html>

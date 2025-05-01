@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.Title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 40vw;
+}
+
+.checkbox {
+  display: inline-block;
+  padding: 0 2rem;
+}
+
+.NmInput {
+  display: flex;
+  padding: 1.5rem 0;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+label {
+  display: inline-block;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+
+#convertion {
+  margin-top: 16px;
+  font-weight: bold;
+}
